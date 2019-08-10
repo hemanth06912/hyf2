@@ -1,0 +1,42 @@
+.container-left{
+     text-align: left;
+     padding-left: 4cm;
+     float: left; 
+     font-size: 17px;
+     font-family: cursive;      
+}
+#p {
+    padding-left: 2cm;
+}
+#header h1{
+    font-size: 50px;
+}
+img {
+    border-radius: 80%;
+    border-style: solid;
+    border-width: 3px;
+    border-color: wheat;
+}
+.container-right{
+    text-align: left;
+    padding-left: 3cm;
+    float :right;
+    width: 32%;
+    padding-top: 1cm;
+    background-color: grey;
+    font-style: italic;
+    border-radius: 12px;
+    color: wheat;
+
+}
+#change {
+    color:grey;
+
+}
+
+
+.container-bottom{
+    float:right;
+    text-align: center;
+    padding-top: 2cm;
+}
