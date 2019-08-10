@@ -17,6 +17,16 @@ img {
     border-width: 3px;
     border-color: wheat;
 }
+
+#hyf ul a:link{
+    color:black
+}
+#hyf a:visited{
+    color:red;
+}
+#hyf a:hover{
+    color:grey;
+}
 .container-right{
     text-align: left;
     padding-left: 3cm;
