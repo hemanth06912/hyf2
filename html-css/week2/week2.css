@@ -1,0 +1,149 @@
+P{
+    color: gray;
+    padding: 0;
+    margin: 0;
+    
+}
+#header{
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    padding: 50px 50px 50px 200px;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+
+}
+body{
+    margin:0;
+}
+
+
+
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+.section2 img{
+    width: 100%;
+    
+}
+
+
+
+#nav1{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px;
+    height: 40px;
+    box-sizing: border-box;
+    padding-left: 185px;
+    font-style: san serif;
+    font-size: 18px;
+}
+#nav1 div{
+    padding:10px;
+}
+.section3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+#container2 h4{
+    font-family: sans-serif;
+}
+#container3 h2{
+    font-family: sans-serif;
+}
+#container2{
+    margin: 30px 20px 100px 100px;
+    flex: 3;
+}
+#container3{
+    margin: 30px 120px 100px 10px;
+    font-size: 18px;
+    flex: 4;
+}
+.section4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+#container4{
+    margin: 50px 20px 100px 100px;
+    flex:3;
+}
+#container5{
+    margin: 50px 120px 100px 10px;
+    flex:4;
+}
+#container5 img{
+padding-bottom:20px;
+padding-top:20px;
+}
+.section5{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+
+    background-color: rgb(100, 50, 223);
+    padding:28px;
+    color: white;
+    font-family: sans-serif;
+    flex-wrap: wrap;
+    
+}
+.section5 p{
+    padding:28px;
+    color: white;
+    font-family: sans-serif;
+    margin:0;
+    padding:0;
+
+}
+ul{
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    line-height: 1.5cm;
+
+}
+.section5 h3{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.section5 ul li{
+    vertical-align: 1px;
+}
+    @media screen and (max-width: 700px) {
+         #container2, #container3, #container4, #container5{
+            padding: 5px;
+            margin: 10px
+        }
+        #header{
+            padding:30px;
+        }
+        
+    }
+    @media screen and (max-width: 600px) {
+        .section5,.section3,.section4 {
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+    @media screen and (max-width: 575px){
+        #nav1{
+            display:flex;
+            padding:10px;
+            flex-direction: column;
+            box-sizing: border-box;
+            height: 180px;
+            align-items: flex-start;
+        }
+    }
