@@ -74,3 +74,21 @@ progress{
     width:80%;
     height:15px;
   }
+  a:link {
+    text-decoration: none;
+    color:grey;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color:grey;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color:green;
+  }
+  
+  a:active {
+    text-decoration:none;
+  }
