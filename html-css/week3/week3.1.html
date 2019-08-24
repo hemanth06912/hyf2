@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="week3.1.css">
+    <title>Shopping Form</title>
+</head>
+<body>
+      <div id="header1">
+        <header>Logo</header>
+        <nav>Navigation</nav>
+      </div>
+      <div id="header2">
+        <h1>Sign up to yourcustomertailor.com</h1>
+      
+        <p>We can't wait to help you improve your lifestyle and gain the attention from people around<br>
+        you!</p>
+        <p>Sign up below to save up to 70% on apparel,hand-bags and cosmetics. Our agents are busy <br>
+          picking the best offers that match your preferences and style. Every week we will send you a<br>
+        hand-picked selection - we just need to know a few details about your first... </p>
+        <h2>Step 1/4 - tell us who you are?</h2>
+        <progress max="100" value="25"></progress>
+        <p>Nice to meet you. Let's spent a minute to get to know each other? Please enter the following:</p>
+      </div>
+        <form action="/action_page.php" method="POST">
+    <div id="container">
+      <label for="firstname">First name *</label> 
+        <input type="text" name="firstname" size="30" required>
+      <label for="lastname">Last name *</label>
+        <input type="text" name="lastname" size="30" required>
+    </div>
+    <div id="container">
+         <label for="country">Country*</label>
+        <select name="country" >
+          <option value selected></option>
+          <option  value="Denmark">Denmark</option>
+          <option  value="Finland">Finland</option>
+          <option  value="Sweden">Sweden</option>
+          <option  value="Norway">Norway</option>
+        </select>
+    </div>
+    <div id="container">       
+          <label for="Street address">Street address*</label>
+          <input type="text" name="Street address" size="30" required>      
+          <label for="Post Code">Post Code*</label>
+          <input type="text" name="Post Code" size="30" required>      
+    </div>
+    <div id="other">
+      <div id="container1">
+          <label for="profile description">    
+                <h3>Profile description</h3>
+                <p><span>Please provide a short <br>description of yourself to<br> be displayed on our social 
+                <br>community pages.</p></span></label> 
+          <label>                       
+          <textarea name="message" rows="10" cols="100"></textarea></label>
+      </div>        
+          <P>Use the same address for billing and shipping? Uncheck below to fill out a separate 
+           shipping address.</P>
+    </div>
+        <label for="toggle-1">Shipping address</label>
+        <input type="checkbox" checked id="toggle-1">
+    
+    <div class="shipping">
+        <div id="container">
+            <label for="firstname">First name *</label>
+            <input type="text" name="firstname" size="30" required>
+            <label for="lastname">Last name *</label>
+            <input type="text" name="lastname" size="30" required>
+        </div>
+        <div id="container">
+              <label for="country">Country*</label>
+              <select name="country"  >
+                <option value selected></option>
+                <option  value="Denmark">Denmark</option>
+                <option  value="Finland">Finland</option>
+                <option  value="Sweden">Sweden</option>
+                <option  value="Norway">Norway</option>      
+              </select>          
+        </div>
+        <div id="container">            
+              <label for="Street address">Street address*</label>
+              <input type="text" name="Street Address" size="30" required>            
+              <label for="Post Code">Post Code*</label>
+              <input type="text" name="Post Code" size="4" required>            
+        </div> 
+    </div>  
+    <button><a href="https://htmlpreview.github.io/?https://github.com/hemanth06912/hyf-homework/blob/master/html-css/week3.2/week3.2.html"></a>Next step</button>  
+  </form>       
+</body>
+</html>
