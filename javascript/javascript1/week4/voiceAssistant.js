@@ -74,21 +74,3 @@ console.log(getReply("what is your favorite dish"));
 console.log(getReply("Add Bike ride the 3/5/2019 to my calendar"))
 
 
-// const list = {
-//     name: '',
-//     todosList: [],
-//     day: '',
-//     favoriteDish: '',
-//     myCalendar: []
-// };
-
-// function getReply(command) {
-//     if(command.includes('hello my name is hemanth')) {
-//     //    const commandArray = command.split(" ");
-//     //     const name = commandArray[commandArray.length - 1];
-//     //     list.name = name;
-//         return `nice to meet you ${list.name}`;
-//     } else if(command.includes('what is my name?')){
-//        return `Your name is ${list.name}`;
-//      } 
-//     }
