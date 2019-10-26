@@ -19,8 +19,21 @@
 #output{
     margin-left: 60px;
 }
-
+#city{
+    border-radius: 15px;
+    text-align: center;
+    background-color: antiquewhite;
+    height: 30px;
+    width: 80px;
+}
 body{
     background: url("https://drive.google.com/uc?id=15USejoAiIbF9HtmSLJhprcX67xdo8WUR");
-    color: blanchedalmond;
+    color: whitesmoke;
+}
+#search{
+    border-radius: 20px;
+    text-align: center;
+    background-color: antiquewhite;
+    height: 25px;
+    margin: 15px;
 }
