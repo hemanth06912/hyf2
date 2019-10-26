@@ -1,0 +1,18 @@
+#section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin :50px;
+    flex-direction: column;
+}
+
+#section2{
+  margin:5px;
+  display: flex;
+    justify-content: center;
+
+}
+body{
+    background-color: antiquewhite;
+    background: url("https://drive.google.com/uc?id=10YdDvfYCduIzccwHfREukqUPCp5sl3OP");
+}

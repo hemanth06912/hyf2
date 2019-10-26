@@ -1,0 +1,26 @@
+[
+    {
+      "name": "hemanth",
+      "id": 54,
+      "price": 10.99,
+      "listOfDrinks": [
+        "cola",
+        "lime",
+        "beer"
+      ],
+      "extras": [{"name":"cheese","quantity":3},
+      {"name":"tomatoes","quantity":3}]
+    },
+    {
+      "name": "gizem",
+      "id": 69,
+      "price": 12.99,
+      "listOfDrinks": [
+        "tea",
+        "lime",
+        "beer"
+      ],
+      "extras": [{"name":"cheese","quantity":3},
+      {"name":"tomatoes","quantity":3}]
+    }
+  ]

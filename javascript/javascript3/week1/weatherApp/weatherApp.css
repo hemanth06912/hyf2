@@ -1,0 +1,26 @@
+#section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin :50px;
+    flex-direction: column;
+}
+
+#section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin :50px;
+    flex-direction: column;
+}
+#icon{
+    margin : 30px;
+}
+#output{
+    margin-left: 60px;
+}
+
+body{
+    background: url("https://drive.google.com/uc?id=15USejoAiIbF9HtmSLJhprcX67xdo8WUR");
+    color: blanchedalmond;
+}
