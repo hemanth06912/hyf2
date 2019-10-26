@@ -4,6 +4,7 @@
     align-items: center;
     margin :50px;
     flex-direction: column;
+    border-width: 5px;
 }
 
 #section2{
@@ -16,3 +17,25 @@ body{
     background-color: antiquewhite;
     background: url("https://drive.google.com/uc?id=10YdDvfYCduIzccwHfREukqUPCp5sl3OP");
 }
+
+#search{
+    border-radius: 15px;
+    text-align: center;
+    background-color: aquamarine;
+    height: 25px;
+
+}
+
+#number{
+    border-radius: 20px;
+    text-align: center;
+    background-color: antiquewhite;
+    height: 25px;
+}
+#giphy{
+    border-radius: 8px;
+    text-align: center;
+    background-color: antiquewhite;
+    height: 25px;
+}
+
