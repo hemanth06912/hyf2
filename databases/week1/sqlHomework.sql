@@ -1,5 +1,5 @@
---  create database hyf_db_Homework1;
---  use hyf_db_Homework1;
+-- create database hyf_db_Homework1;
+use hyf_db_Homework1;
 
 --  select * from  task;
 --  select * from status;
@@ -53,10 +53,12 @@
 
 -- task 10:
 
--- select task.id, task.title, status.name from task
--- inner join status on task.status_id=status.id
--- order by status.name desc;
+select count(task.id), status.name from task
+inner join status on task.status_id=status.id
+group by status.id
+order by task.id;
 
+-- select * from task;
 
 
 
