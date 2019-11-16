@@ -58,7 +58,7 @@ group by status.name;
 select count(task.id), status.name from task
 inner join status on task.status_id=status.id
 group by status.id
-order by task.id;
+order by count(task.id) desc;
 
 -- select * from task;
 
