@@ -124,11 +124,11 @@
 
 -- Additional queries --------------------------------
 
--- task1 ----------------------------
+-- task1 ------------------------------------------------
 -- get the meals that have prices smaller than 150:
 -- select * from meal where price < 150 ;
 
--- task2 ----------------------------
+-- task2 --------------------------------------------
  -- select * from reservation;
  -- meals that still have reservations:
 
@@ -136,21 +136,27 @@
 -- join reservation on meal.id=reservation.meal_id
 -- where max_reservations > number_of_guests;
 
--- task 3:---------------------------------------
+-- task 3:-------------------------------------------------
 -- get the titles that partially match :
+
 -- select meal.id, meal.title from meal
 -- where meal.title like '%curry%'
 
--- task 4:
+-- task 4: -----------------------------------------------------
 -- get the meals that are created between two dates:
 
+-- select meal.id,meal.title,meal.created_date 
+-- from meal 
+-- where meal.created_date between '2016-01-01 00:00:00' and '2018-01-01 00:00:00';
 
--- task 5:
+
+-- task 5: --------------------------------------------------
 -- get only specific number of meals:
+
 -- select *  from meal 
 -- limit 3;
 
--- task 6:
+-- task 6: ------------------------------------------------
 -- get the meal that have good reviews
 -- assuming meals with stars greater 3 as good:
 
@@ -159,34 +165,19 @@
 -- on meal.id =review.meal_id
 -- where review.stars >3;
 
--- task 7:
--- get the specfic meal  between two dates:
--- select meal.id,meal.title,meal.created_date 
--- from meal 
--- where meal.created_date between '2016-01-01 00:00:00' and '2018-01-01 00:00:00';
-
-
+-- task 7: ---------------------------------------------
+-- get the specfic meal sorted by created_date:
 
 -- select meal.id,meal.title,meal.max_reservations,reservation.number_of_guests,reservation.created_date
 -- from meal join reservation 
 -- on meal.id = reservation.meal_id
 -- order by  created_date desc;
 
--- task 8:
+-- task 8: -------------------------------------------
 -- sort all meals from average number of stars:
+
 -- select meal.id,meal.title,review.stars,avg(review.stars) as avg_stars
 -- from meal join review 
 -- on meal.id = review.meal_id
 -- group by meal.id
 -- order by avg(review.stars);
-
-
-
-
- 
-
-
-
-
-
- 
