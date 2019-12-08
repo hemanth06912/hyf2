@@ -1,0 +1,15 @@
+{
+  "name": "meals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/backend/",
+  "scripts": {
+    "start": "nodemon ./src/backend/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.1"
+  }
+}
