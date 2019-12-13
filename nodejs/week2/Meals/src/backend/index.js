@@ -18,8 +18,8 @@ const title_matchRouter = require('./routes/title_match.js');
 
 app.get('/meals', mealsRouter);
 app.get('/meals', meals_idRouter);
-app.get('/reservations/', reservationsRouter);
-app.get('/reservations/', reservations_idRouter);
+app.get('/reservations', reservationsRouter);
+app.get('/reservations', reservations_idRouter);
 app.get('/reviews/:id', reviews_idRouter);
 app.get('/reviews', reviewsRouter);
 app.get('/meals?maxprice=', max_priceRouter);
