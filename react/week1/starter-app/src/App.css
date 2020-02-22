@@ -1,0 +1,28 @@
+.App {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  height: 15vh;
+  width: 50em;
+  margin-inline-start: 10px;
+  border-radius: 30px;
+  align-items: center;
+  margin-inline-end: 10px;
+  margin-bottom: 10px;
+}
+.todo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.todo h1{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
