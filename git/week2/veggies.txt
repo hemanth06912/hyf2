@@ -1,5 +1,7 @@
 Carrots
 Beetroots
-Brinjal
+Beans
 Potatoes
 Peppers
+Cabbage
+Radish
